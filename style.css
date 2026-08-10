@@ -1,0 +1,198 @@
+/*
+   Portfolio Stylesheet (Beginner Friendly)
+   Using Color Names Only*/
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header section */
+header {
+    background-color: rgb(238, 90, 10);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    color: lightcyan;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Navigation bar links */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+/* Main container and section styling */
+main {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+}
+
+/* Section headings */
+h2 {
+    color: midnightblue;
+    border-bottom: 2px solid dodgerblue;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+h3 {
+    color: darkblue;
+}
+
+/* Profile Photo styling */
+#about img {
+    border-radius: 50%;
+    border: 3px solid dodgerblue;
+    margin-bottom: 15px;
+}
+
+/* Skills list styling */
+#skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#skills li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: darkslategray;
+}
+
+/* Links styling */
+a {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+/* Table styling for Education */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: midnightblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: ghostwhite;
+}
+
+/* Form styling for Contact section */
+form label {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: dodgerblue;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: royalblue;
+}
+
+/* Horizontal line separator */
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+/* Footer section */
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: gold;
+    text-decoration: underline;
+}
