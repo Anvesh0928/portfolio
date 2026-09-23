@@ -7,10 +7,10 @@ function setTheme(theme) {
     localStorage.setItem('portfolio-theme', theme);
 
     if (theme === 'dark') {
-        themeToggle.textContent = '☀️ Light';
+        themeToggle.textContent = ' Light';
         themeToggle.setAttribute('aria-label', 'Switch to light theme');
     } else {
-        themeToggle.textContent = '🌙 Dark';
+        themeToggle.textContent = ' Dark';
         themeToggle.setAttribute('aria-label', 'Switch to dark theme');
     }
 }
